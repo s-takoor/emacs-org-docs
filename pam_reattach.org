@@ -4,7 +4,7 @@
 :END:
 
 * 🚀 TL;DR
-`pam_reattach` is a module that enables users to utilize the `pam_tid` module (Touch ID) within a tmux session.
+~pam_reattach~ is a module that enables users to utilize the ~pam_tid~ module (Touch ID) within a tmux session.
 
 ** 🛠️ INSTALLATION
 Install the module using Homebrew with the following command:
@@ -21,7 +21,7 @@ Modify the targeted service in ~/etc/pam.d/sudo~. It's recommended to use ~optio
    #+end_src
 
 ** 💡TIPS
-- Ensure that your targeted service in `~/etc/pam.d/sudo` is appropriate for your use case.
+- Ensure that your targeted service in ~/etc/pam.d/sudo~ is appropriate for your use case.
 - Test the changes in a safe environment before applying them system-wide.
 
 ** 📌 REFERENCE
@@ -31,4 +31,4 @@ Additional information is available in the [pam_reattach GitHub repository](http
 If you encounter any issues or need further assistance, refer to the [GitHub repository's issue tracker](https://github.com/fabianishere/pam_reattach/issues) for support.
 
 ** 🗞️ CONCLUSION
-With `pam_reattach`, you can seamlessly integrate Touch ID functionality into your tmux sessions on macOS, providing a convenient and secure authentication experience.
+With ~pam_reattach~, you can seamlessly integrate Touch ID functionality into your tmux sessions on macOS, providing a convenient and secure authentication experience.

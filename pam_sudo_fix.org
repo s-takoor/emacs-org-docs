@@ -4,11 +4,11 @@
 :END:
 
 * 🚀 TL;DR
-If you're facing issues with your sudo configuration and need a quick fix, follow these steps to restore your ~~/etc/pam.d/sudo~ file.
+If you're facing issues with your sudo configuration and need a quick fix, follow these steps to restore your ~/etc/pam.d/sudo~ file.
 
 ** 🔩 STEPS
-- **Create a New sudo File:**
-  Create a file named `sudo` with the following content:
+- *Create a New sudo File*
+  Create a file named ~sudo~ with the following content:
          #+begin_src sh
 # sudo: auth account password session
 auth       optional       /opt/homebrew/lib/pam/pam_reattach.so
@@ -20,20 +20,20 @@ password   required       pam_deny.so
 session    required       pam_permit.so
          #+end_src
 
-- **Replace the Misconfigured sudo File:**
-  Use Finder or the terminal to move the newly created `sudo` file to ~~/etc/pam.d/~, replacing the misconfigured one.
+- *Replace the Misconfigured sudo File*
+  Use Finder or the terminal to move the newly created ~sudo~ file to ~/etc/pam.d/~, replacing the misconfigured one.
 
-  + **Using Finder:**
-    Open Finder and navigate to `/etc/pam.d/`. Replace the existing `sudo` file with the newly created one.
+  + *Using Finder*
+    Open Finder and navigate to ~/etc/pam.d/~. Replace the existing ~sudo~ file with the newly created one.
 
-  + **Using Terminal:**
+  + *Using Terminal*
     Run the following command in the terminal:
     #+begin_src sh
 open /etc/pam.d/
     #+end_src
 
 ** 🗓️ NOTE
-- Ensure that the new `sudo` file has the correct permissions and ownership after moving it to ~~/etc/pam.d/~.
+- Ensure that the new ~sudo~ file has the correct permissions and ownership after moving it to ~/etc/pam.d/~.
 - This quick fix assumes that you have the necessary privileges to modify system files.
 
 ** 🗞️ CONCLUSION
