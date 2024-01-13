@@ -11,7 +11,7 @@ Note: The following applies to Doom Emacs; key-bindings may not work on vanilla 
   #+end_quote
 
 ** 🧰 PREREQUISITES
-Connect to GitHub using the Secure Shell Protocol (SSH) for a secure channel over an unsecured network. Refer to [GitHub SSH documentation](https://docs.github.com/en/authentication/connecting-to-github-with-ssh).
+Connect to GitHub using the Secure Shell Protocol (SSH) for a secure channel over an unsecured network. Refer to [[https://docs.github.com/en/authentication/connecting-to-github-with-ssh][GitHub SSH documentation]].
 
 ** 🔥 MAGIT WORKFLOW
 *** CLONE THE GIT REPOSITORY LOCALLY (VIA SSH)
