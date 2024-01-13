@@ -22,7 +22,7 @@ Connect to GitHub using the Secure Shell Protocol (SSH) for a secure channel ove
 - Open the repository: ~SPC f f~ and select the repository directory
 
 *** CHECK GIT STATUS
-- Execute: ~SPC G G~
+- Execute: ~SPC g g~
 
 *** STAGING FILES
 - Stage a single file: ~s~
@@ -45,5 +45,5 @@ Connect to GitHub using the Secure Shell Protocol (SSH) for a secure channel ove
 - To pull changes: ~F u~
 
 ** 📌 REFERENCES
-- [MAGIT Documentation](https://magit.vc/manual/magit.html)
-- [Doom Emacs Documentation](https://github.com/hlissner/doom-emacs)
+- [[https://magit.vc/manual/magit.html][MAGIT Documentation]]
+- [[https://github.com/hlissner/doom-emacs][Doom Emacs Documentation]]

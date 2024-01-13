@@ -25,10 +25,10 @@ Modify the targeted service in ~/etc/pam.d/sudo~. It's recommended to use ~optio
 - Test the changes in a safe environment before applying them system-wide.
 
 ** 📌 REFERENCE
-Additional information is available in the [pam_reattach GitHub repository](https://github.com/fabianishere/pam_reattach).
+Additional information is available in the [[https://github.com/fabianishere/pam_reattach][pam_reattach GitHub repository]]
 
 ** ⚙️ TROUBLESHOOTING
-If you encounter any issues or need further assistance, refer to the [GitHub repository's issue tracker](https://github.com/fabianishere/pam_reattach/issues) for support.
+If you encounter any issues or need further assistance, refer to the [[https://github.com/fabianishere/pam_reattach/issues][GitHub repository's issue tracker]] for support.
 
 ** 🗞️ CONCLUSION
 With ~pam_reattach~, you can seamlessly integrate Touch ID functionality into your tmux sessions on macOS, providing a convenient and secure authentication experience.
