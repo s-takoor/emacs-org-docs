@@ -1,0 +1,40 @@
+:PROPERTIES:
+#+TITLE: PAM_SUDO_FIX
+#+AUTHOR: s.takoor
+:END:
+
+* 🚀 TL;DR
+If you're facing issues with your sudo configuration and need a quick fix, follow these steps to restore your ~~/etc/pam.d/sudo~ file.
+
+** 🔩 STEPS
+- **Create a New sudo File:**
+  Create a file named `sudo` with the following content:
+         #+begin_src sh
+# sudo: auth account password session
+auth       optional       /opt/homebrew/lib/pam/pam_reattach.so
+auth       sufficient     pam_tid.so
+auth       sufficient     pam_smartcard.so
+auth       required       pam_opendirectory.so
+account    required       pam_permit.so
+password   required       pam_deny.so
+session    required       pam_permit.so
+         #+end_src
+
+- **Replace the Misconfigured sudo File:**
+  Use Finder or the terminal to move the newly created `sudo` file to ~~/etc/pam.d/~, replacing the misconfigured one.
+
+  + **Using Finder:**
+    Open Finder and navigate to `/etc/pam.d/`. Replace the existing `sudo` file with the newly created one.
+
+  + **Using Terminal:**
+    Run the following command in the terminal:
+    #+begin_src sh
+open /etc/pam.d/
+    #+end_src
+
+** 🗓️ NOTE
+- Ensure that the new `sudo` file has the correct permissions and ownership after moving it to ~~/etc/pam.d/~.
+- This quick fix assumes that you have the necessary privileges to modify system files.
+
+** 🗞️ CONCLUSION
+Following these steps should help you quickly restore your sudo configuration, ensuring smooth authentication on your macOS system.

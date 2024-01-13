@@ -1,0 +1,49 @@
+:PROPERTIES:
+#+TITLE: MAGIT
+#+AUTHOR: s.takoor
+:END:
+
+* 🚀 TL;DR
+The document provides an overview of using *MAGIT*, an interface to the ~Git~ version control system implemented as an ~Emacs~ package.
+
+  #+begin_quote
+Note: The following applies to Doom Emacs; key-bindings may not work on vanilla Emacs.
+  #+end_quote
+
+** 🧰 PREREQUISITES
+Connect to GitHub using the Secure Shell Protocol (SSH) for a secure channel over an unsecured network. Refer to [GitHub SSH documentation](https://docs.github.com/en/authentication/connecting-to-github-with-ssh).
+
+** 🔥 MAGIT WORKFLOW
+*** CLONE THE GIT REPOSITORY LOCALLY (VIA SSH)
+- Execute: `git clone <repository-URL>`
+
+*** NAVIGATE INTO THE LOCAL GIT REPOSITORY FROM EMACS
+- Open Emacs
+- Open the repository: `SPC f f` and select the repository directory
+
+*** CHECK GIT STATUS
+- Execute: `SPC G G`
+
+*** STAGING FILES
+- Stage a single file: `s`
+- Stage all files: `S`
+
+*** COMMIT CHANGES
+- Start commit: `c c`
+- Add a commit message
+- Exit insert mode: `Esc`
+- Save the commit: `Ctrl-c Ctrl-c`
+
+*** PUSH TO MASTER BRANCH
+- Push changes to master branch: `p u p`
+
+*** HELP MENU
+- Access Magit help menu: `?`
+
+** 🔍 ADDITIONAL TIPS
+- To switch branches: `b b`
+- To pull changes: `F u`
+
+** 📌 REFERENCES
+- [MAGIT Documentation](https://magit.vc/manual/magit.html)
+- [Doom Emacs Documentation](https://github.com/hlissner/doom-emacs)

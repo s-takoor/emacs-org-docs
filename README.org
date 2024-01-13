@@ -1,0 +1,13 @@
+#+TITLE: EMACS ORG DOCUMENTATION REPOSITORY
+
+* 🚀 TL;DR
+This repository is dedicated to storing and organising documentation in Emacs Org mode, a powerful markup language within the Emacs text editor. Org mode enables structured note-taking, document planning, and efficient organisation of information.
+
+** 📄 WHAT ARE EMACS ORG FILES?
+Emacs Org mode files have the extension ".org" and are a versatile format for creating structured documents, notes, and literate programming. Org mode supports plain text, but it also provides features such as outlining, task management, table editing, and export capabilities.
+
+** 💡 REPOSITORY PURPOSE
+This repository serves as a knowledge base where you can document and organise everything you learn. Whether it's code snippets, configuration settings, or detailed guides, Org mode files offer a flexible and readable format for documentation.
+
+** 📋 CONTENTS
+The repository is organised into different Org files, each dedicated to a specific topic.
