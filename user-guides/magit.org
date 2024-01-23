@@ -31,7 +31,6 @@ Connect to GitHub using the Secure Shell Protocol (SSH) for a secure channel ove
 *** COMMIT CHANGES
 - Start commit: ~c c~
 - Add a commit message
-- Exit insert mode: ~Esc~
 - Save the commit: ~Ctrl-c Ctrl-c~
 
 *** PUSH TO MASTER BRANCH
