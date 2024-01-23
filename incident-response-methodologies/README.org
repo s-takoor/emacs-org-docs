@@ -1,0 +1,35 @@
+#+TITLE: INCIDENT RESPONSE METHODOLOGY
+
+* TABLE OF CONTENTS :toc:
+  - [[#tldr][TL;DR]]
+  - [[#preparation][PREPARATION]]
+  - [[#identification][IDENTIFICATION]]
+  - [[#containment][CONTAINMENT]]
+  - [[#eradication][ERADICATION]]
+  - [[#recovery][RECOVERY]]
+  - [[#reporting][REPORTING]]
+  - [[#follow-up-actions][FOLLOW-UP ACTIONS]]
+
+** TL;DR
+The following outlines what should be included in an incident response methodology (IRM).
+
+** PREPARATION
+Develop and document an incident response policy and procedures, including roles and responsibilities, escalation procedures, and communication plans.
+
+** IDENTIFICATION
+Detecting potential security incidents using various monitoring tools, alerts, or manual checks.
+
+** CONTAINMENT
+Taking immediate actions to prevent further damage, such as isolating affected systems or disconnecting compromised devices from the network.
+
+** ERADICATION
+Removing the threat from the environment and restoring affected systems, including patching vulnerabilities and updating antivirus software.
+
+** RECOVERY
+Restoring data, applications, and services to theur pre-incident state uisng backups, or other recovery methods.
+
+** REPORTING
+Documenting and reporting on the incident to all relevant stakeholders, including management, customers, and regulatory bodies, as required by your organisation's policies.
+
+** FOLLOW-UP ACTIONS
+Taking corrective measures to prevent similar incidents from recurring in the future and improving overall posture.

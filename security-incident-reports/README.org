@@ -1,0 +1,43 @@
+#+TITLE: SECURITY INCIDENT REPORT
+
+* TABLE OF CONTENTS :toc:
+  - [[#tldr][TL;DR]]
+  - [[#summary][SUMMARY]]
+  - [[#detected-system-or-asset][DETECTED SYSTEM OR ASSET]]
+  - [[#confirmed-threat][CONFIRMED THREAT]]
+  - [[#impact-assessment][IMPACT ASSESSMENT]]
+  - [[#root-cause-analysis][ROOT CAUSE ANALYSIS]]
+  - [[#containment-actions][CONTAINMENT ACTIONS]]
+  - [[#recovery-actions][RECOVERY ACTIONS]]
+  - [[#follow-up-actions][FOLLOW-UP ACTIONS]]
+  - [[#lessons-learned][LESSONS LEARNED]]
+
+** TL;DR
+The following outlines what should be included in a security incident report.
+
+** SUMMARY
+A brief description of the incident including the date, time, location and, potential impact.
+
+** DETECTED SYSTEM OR ASSET
+The affected system or asset, such as a network segment, server, or workstation.
+
+** CONFIRMED THREAT
+Identification of the type of security threat, such as malware, phishing attack, or unauthorised access.
+
+** IMPACT ASSESSMENT
+An evaluation of the damage caused by the incident, including any data loss, downtime, and potential financial impact.
+
+** ROOT CAUSE ANALYSIS
+A thorough investigation to determine the cause of the incident, including potential vulnerabilities exploited or misconfigurations.
+
+** CONTAINMENT ACTIONS
+The steps taken to prevent further damage or spread of the incident.
+
+** RECOVERY ACTIONS
+The process for restoring affected systems and data, as well as any necessary backups or patches.
+
+** FOLLOW-UP ACTIONS
+Planned corrective measures to address the underlying cause of the incident and prevent future recurrence.
+
+** LESSONS LEARNED
+Documenting the key findings from the incident response process to improve future incident handling and overall security posture.
