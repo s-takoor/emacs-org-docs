@@ -1,0 +1,39 @@
+#+title: PENETRATION TESTING METHODOLOGY
+
+* TABLE OF CONTENTS :toc:
+  - [[#tldr][TL;DR]]
+  - [[#reconnaissance][RECONNAISSANCE]]
+  - [[#vulnerability-assessment][VULNERABILITY ASSESSMENT]]
+  - [[#exploitation][EXPLOITATION]]
+  - [[#post-exploitation][POST-EXPLOITATION]]
+  - [[#reporting][REPORTING]]
+  - [[#closing][CLOSING]]
+
+** TL;DR
+
+** RECONNAISSANCE
+*** INFORMATION GATHERING
+- [X] Perform OSINT using ltools like Maltego, Shodan, or Google Dorks
+- [X] Analyse WHOIS records and DNS information
+- [X] Identify subdomains and associated domains
+- [X] Gather email address, phone numbers, and physical addresses
+- [X] Review social media profiles and employee information
+- [X] Map out the organisation's infrastructure
+
+*** NETWORK MAPPING
+- [X] Perform active scan using Nmap or Nessus
+- [X] Discover open ports, services, and operating systems on target hosts
+- [X] Enumerate hosts, devices, and services
+- [X] Identify vulnerabilities based on CVE database or other sources
+- [X] Document all discovered information
+
+** VULNERABILITY ASSESSMENT
+*** SCANNING
+- [X] Perform passive and active reconnaissance using tools like Nmap, OpenVas, or Nessus
+- [X] Identify vulnerabilities in operating systems, web applications, and network services
+
+*** MANUAL TESTING
+** EXPLOITATION
+** POST-EXPLOITATION
+** REPORTING
+** CLOSING

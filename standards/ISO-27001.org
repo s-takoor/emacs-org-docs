@@ -1,4 +1,4 @@
-#+TITLE: ISO 27001
+#+title: ISO 27001
 
 * TABLE OF CONTENTS :toc:
   - [[#tldr][TL;DR]]
