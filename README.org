@@ -1,4 +1,4 @@
-#+TITLE: EMACS ORG DOCUMENTATION REPOSITORY
+#+title: EMACS ORG DOCUMENTATION REPOSITORY
 
 * 🚀 TL;DR
 This repository serves as a personal knowledge base containing Emacs Org files on various topics including incident response methodologies, security standards, troubleshooting, user guides and write-ups for Capture The Flag (CTF) challenges.

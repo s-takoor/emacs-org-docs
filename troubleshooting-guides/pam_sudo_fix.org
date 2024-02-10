@@ -32,7 +32,7 @@ session    required       pam_permit.so
 open /etc/pam.d/
     #+end_src
 
-** 🗓️ NOTE
+** 📋 NOTE
 - Ensure that the new ~sudo~ file has the correct permissions and ownership after moving it to ~/etc/pam.d/~.
 - This quick fix assumes that you have the necessary privileges to modify system files.
 

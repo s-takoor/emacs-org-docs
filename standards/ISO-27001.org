@@ -1,7 +1,8 @@
 #+title: ISO 27001
+#+filetags: :ISO:
 
 * TABLE OF CONTENTS :toc:
-  - [[#tldr][TL;DR]]
+  - [[#-tldr][🚀 TL;DR]]
   - [[#information-security-policy][INFORMATION SECURITY POLICY]]
   - [[#organisation-of-information-security][ORGANISATION OF INFORMATION SECURITY]]
   - [[#asset-management][ASSET MANAGEMENT]]
@@ -17,75 +18,75 @@
   - [[#information-classification-and-handling][INFORMATION CLASSIFICATION AND HANDLING]]
   - [[#monitoring-measuring-and-reporting][MONITORING, MEASURING, AND REPORTING]]
 
-** TL;DR
+** 🚀 TL;DR
 This is a summary of the 14 ISO 27001 domains. These controls should be considered as a minimum requirement to comply with the standard.
 
 ** INFORMATION SECURITY POLICY
-- [X] Define and document an ISMS policy
-- [X] Ensure that the policy is communicated, understood, and implemented throughout the organisation
-- [X] Periodically review and update the policy
+- [ ] Define and document an ISMS policy
+- [ ] Ensure that the policy is communicated, understood, and implemented throughout the organisation
+- [ ] Periodically review and update the policy
 
 ** ORGANISATION OF INFORMATION SECURITY
-- [X] Assign roles and responsibilities for information security within the organisation
-- [X] Establish an Information Security Management Team (ISMT)
-- [X] Define interfaces with external parties
+- [ ] Assign roles and responsibilities for information security within the organisation
+- [ ] Establish an Information Security Management Team (ISMT)
+- [ ] Define interfaces with external parties
 
 ** ASSET MANAGEMENT
-- [X] Identify, classify, protect, and control assets throughout their entire life cycle
-- [X] Perform regular asset inventories and risk assessment
-- [X] Implement appropriate access controls for assets
+- [ ] Identify, classify, protect, and control assets throughout their entire life cycle
+- [ ] Perform regular asset inventories and risk assessment
+- [ ] Implement appropriate access controls for assets
 
 ** ACCESS CONTROL
-- [X] Establish and implement policies for granting access to information
-- [X] Manage user access privileges based on principle of least privilege
-- [X] Regularly review and update access rights
+- [ ] Establish and implement policies for granting access to information
+- [ ] Manage user access privileges based on principle of least privilege
+- [ ] Regularly review and update access rights
 
 ** PHYSICAL AND ENVIRONMENTAL SECURITY
-- [X] Secure facilities against unauthorised entry, theft, or damage
-- [X] Implement appropriate measures to protect against netural hazardsm fires, or power failures
-- [X] Establish procedures for responding to physical security incidents
+- [ ] Secure facilities against unauthorised entry, theft, or damage
+- [ ] Implement appropriate measures to protect against netural hazardsm fires, or power failures
+- [ ] Establish procedures for responding to physical security incidents
 
 ** COMPUTER AND IT SECURITY
-- [X] Protect computer systems from unauthorised access, malware, and other threats
-- [X] Establish policies for managing hardware and software assets
-- [X] Implement appropriate controls for network security
+- [ ] Protect computer systems from unauthorised access, malware, and other threats
+- [ ] Establish policies for managing hardware and software assets
+- [ ] Implement appropriate controls for network security
 
 ** HUMAN RESOURCE SECURITY
-- [X] Define recruitment, hiring, and termination processes to ensure security
-- [X] Implement training programs to raise awareness of information security risks and best practices
-- [X] Establish procedures for handling employee departures or terminations
+- [ ] Define recruitment, hiring, and termination processes to ensure security
+- [ ] Implement training programs to raise awareness of information security risks and best practices
+- [ ] Establish procedures for handling employee departures or terminations
 
 ** NETWORK SECURITY
-- [X] Implement network security policies, including firewalls, access control, and intrusion detection systems
-- [X] Secure wireless networks and remote access
-- [X] Regularly review and update network security controls
+- [ ] Implement network security policies, including firewalls, access control, and intrusion detection systems
+- [ ] Secure wireless networks and remote access
+- [ ] Regularly review and update network security controls
 
 ** BUSINESS CONTINUITY PLANNING
-- [X] Develop a business continuity plan to ensure the organisation can continue critical functions during disruptions
-- [X] Perform regular testing of the BCM and incident response plan
-- [X] Maintain backup systems and disaster recovery plan
+- [ ] Develop a business continuity plan to ensure the organisation can continue critical functions during disruptions
+- [ ] Perform regular testing of the BCM and incident response plan
+- [ ] Maintain backup systems and disaster recovery plan
 
 ** OPERATIONS SECURITY
-- [X] Implement security controls for day-to-day operations, such as secure disposal of assets or controlling access to facilities
-- [X] Define processes for managing change and handling incidents
-- [X] Regularly review and update operational security procedures
+- [ ] Implement security controls for day-to-day operations, such as secure disposal of assets or controlling access to facilities
+- [ ] Define processes for managing change and handling incidents
+- [ ] Regularly review and update operational security procedures
 
 ** APPLICATION DEVELOPMENT, MAINTENANCE, AND SUPPORT
-- [X] Establish a software development lifecycle (SDLC) policy that includes security throughout the development process
-- [X] Implement secure coding practices and testing procedures
-- [X] Ensure that all applications undergo regular vulnerability assessments and penetration tests
+- [ ] Establish a software development lifecycle (SDLC) policy that includes security throughout the development process
+- [ ] Implement secure coding practices and testing procedures
+- [ ] Ensure that all applications undergo regular vulnerability assessments and penetration tests
 
 ** INCIDENT MANAGEMENT
-- [X] Develop an incident management policy and procedures for identifying, classifying, responding to, and reporting incidents
-- [X] Define roles and responsibilities for incident handling and escalation
-- [X] Regularly review and update the incident management process
+- [ ] Develop an incident management policy and procedures for identifying, classifying, responding to, and reporting incidents
+- [ ] Define roles and responsibilities for incident handling and escalation
+- [ ] Regularly review and update the incident management process
 
 ** INFORMATION CLASSIFICATION AND HANDLING
-- [X] Establish a process for classifying information based on sensitivity and importance
-- [X] Implement appropriate controls for handling sensitive information, such as encryption or access restrictions
-- [X] Ensure that all employees are trained on information classification and handling procedures
+- [ ] Establish a process for classifying information based on sensitivity and importance
+- [ ] Implement appropriate controls for handling sensitive information, such as encryption or access restrictions
+- [ ] Ensure that all employees are trained on information classification and handling procedures
 
 ** MONITORING, MEASURING, AND REPORTING
-- [X] Establish procedures for monitoring and measuring the effectiveness of the ISMS
-- [X] Regularly review and report on security incidents, risks, and performance metrics to senior management and stakeholders
-- [X] Implement continuous improvement initiatives based on data from monitoring and reporting activities
+- [ ] Establish procedures for monitoring and measuring the effectiveness of the ISMS
+- [ ] Regularly review and report on security incidents, risks, and performance metrics to senior management and stakeholders
+- [ ] Implement continuous improvement initiatives based on data from monitoring and reporting activities

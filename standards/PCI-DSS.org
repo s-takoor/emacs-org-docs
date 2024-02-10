@@ -1,7 +1,8 @@
 #+title: PCI DSS
+#+filetags: :PCI:
 
 * TABLE OF CONTENTS :toc:
-  - [[#tldr][TL;DR]]
+  - [[#-tldr][🚀 TL;DR]]
   - [[#maintain-secure-networks][MAINTAIN SECURE NETWORKS]]
   - [[#protect-cardholder-data][PROTECT CARDHOLDER DATA]]
   - [[#maintain-a-vulnerability-management-program][MAINTAIN A VULNERABILITY MANAGEMENT PROGRAM]]
@@ -9,42 +10,42 @@
   - [[#regularly-monitor-and-test-networks][REGULARLY MONITOR AND TEST NETWORKS]]
   - [[#maintain-an-information-security-policy][MAINTAIN AN INFORMATION SECURITY POLICY]]
 
-** TL;DR
+** 🚀 TL;DR
 This is a summary of the latest version of PCI DSS (currently v4.0). These controls should be considered as a minimum requirement to comply with the standard.
 
 ** MAINTAIN SECURE NETWORKS
-- [X] Implement and configure firewalls, routers, switches, and other network devices according to best practices and PCI DSS standards
-- [X] Implement strong access control measures for remote access to the network, such as multi-factor authentication and encryption
-- [X] Use secure protocols like SSL/TLS or SSH for transmitting cardholder data over networks
-- [X] Segment the network into subnets to limit access to sensitive areas
-- [X] Regularly monitor network traffic for unusual activity
+- [ ] Implement and configure firewalls, routers, switches, and other network devices according to best practices and PCI DSS standards
+- [ ] Implement strong access control measures for remote access to the network, such as multi-factor authentication and encryption
+- [ ] Use secure protocols like SSL/TLS or SSH for transmitting cardholder data over networks
+- [ ] Segment the network into subnets to limit access to sensitive areas
+- [ ] Regularly monitor network traffic for unusual activity
 
 ** PROTECT CARDHOLDER DATA
-- [X] Implement strong cryptography methods for protecting cardholder data, such as AES-256 or RSA 4096-bit keys
-- [X] Establish a clear data classification policy and implement appropriate access controls
-- [X] Implement regular backups of cardholder data and ensure the backups are encrypted
-- [X] Implement processes to securely dispose of media that contain cardholder data
+- [ ] Implement strong cryptography methods for protecting cardholder data, such as AES-256 or RSA 4096-bit keys
+- [ ] Establish a clear data classification policy and implement appropriate access controls
+- [ ] Implement regular backups of cardholder data and ensure the backups are encrypted
+- [ ] Implement processes to securely dispose of media that contain cardholder data
 
 ** MAINTAIN A VULNERABILITY MANAGEMENT PROGRAM
-- [X] Perform regular vulnerability assessments and penetration tests
-- [X] Apply security patches and software updates ina  timely manner
-- [X] Implement a process for handling discovered vulnerabilities, such as CVEs (Common Vulnerbilities and Exposures)
-- [X] Regularly review system configurations for compliance with PCI DSS requirements
+- [ ] Perform regular vulnerability assessments and penetration tests
+- [ ] Apply security patches and software updates ina  timely manner
+- [ ] Implement a process for handling discovered vulnerabilities, such as CVEs (Common Vulnerbilities and Exposures)
+- [ ] Regularly review system configurations for compliance with PCI DSS requirements
 
 ** IMPLEMENT STRONG ACCESS CONTROL MEASURES
-- [X] Implement role-based access control and least privilege principles
-- [X] Use strong password policies, such as complexity requirements and regular password changes
-- [X] Implement two-factor authentication or multi-factor authentication for high-risk areas
-- [X] Regularly review and update access controls and user privileges
+- [ ] Implement role-based access control and least privilege principles
+- [ ] Use strong password policies, such as complexity requirements and regular password changes
+- [ ] Implement two-factor authentication or multi-factor authentication for high-risk areas
+- [ ] Regularly review and update access controls and user privileges
 
 ** REGULARLY MONITOR AND TEST NETWORKS
-- [X] Implement log monitoring systems to detect unauthorised access or unusual activity
-- [X] Use intrusion detection and prevention systems (IDPS) to identify and respond to threats
-- [X] Conduct regular security awareness training for employees
-- [X] Develop incident response plans and test them regularly
+- [ ] Implement log monitoring systems to detect unauthorised access or unusual activity
+- [ ] Use intrusion detection and prevention systems (IDPS) to identify and respond to threats
+- [ ] Conduct regular security awareness training for employees
+- [ ] Develop incident response plans and test them regularly
 
 ** MAINTAIN AN INFORMATION SECURITY POLICY
-- [X] Establish, document, communicate, and update the information security policy
-- [X] Regularly review and test the information security program for effectiveness
-- [X] Ensure that all employees receive necessary training and are aware of their roles and responsibilities in maintaining PCI DSS compliance
-- [X] Implement a process to address non-compliance issues, such as disciplinary actions or additional training
+- [ ] Establish, document, communicate, and update the information security policy
+- [ ] Regularly review and test the information security program for effectiveness
+- [ ] Ensure that all employees receive necessary training and are aware of their roles and responsibilities in maintaining PCI DSS compliance
+- [ ] Implement a process to address non-compliance issues, such as disciplinary actions or additional training
