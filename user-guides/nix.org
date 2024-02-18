@@ -10,7 +10,9 @@
 ** INSTALLING NIX
 *** MULTI-USER INSTALLATION
 - The recommended way to install Nix on ~macOS~ is using the [[https://nixos.org/manual/nix/stable/installation/multi-user][multi-user installation]].
-  + src_sh{sh <(curl -L https://nixos.org/nix/install)}
+#+begin_src sh
+sh <(curl -L https://nixos.org/nix/install)
+#+end_src
 
 - Follow the instructions on the terminal to complete the installation.
 
@@ -21,8 +23,12 @@
 *** SSL CA CERT ERROR :macos:ssl:cert:
 If you are getting an SSL CA cert error on MacOS, perform the following: Ref: [[https://discourse.nixos.org/t/ssl-ca-cert-error-on-macos/31171/4][discourse]]
 - Check for an old symlink:
-  + src_sh{ls -la /etc/ssl/certs/ca-certificates.crt}
+  #+begin_src sh
+ls -la /etc/ssl/certs/ca-certificates.crt
+#+end_src
 
 - If it's pointing to ~/etc/static/ssl/certs/ca-certificates.crt~, remove and create a new one:
-  + src_sh{sudo rm /etc/ssl/certs/ca-certificates.crt}
-  + src_sh{sudo ln -s /nix/var/nix/profiles/default/etc/ssl/certs/ca-bundle.crt /etc/ssl/certs/ca-certificates.crt}
+#+begin_src sh
+sudo rm /etc/ssl/certs/ca-certificates.crt
+sudo ln -s /nix/var/nix/profiles/default/etc/ssl/certs/ca-bundle.crt /etc/ssl/certs/ca-certificates.crt
+#+end_src
