@@ -1,0 +1,15 @@
+#+title: ELFEED
+
+* ROOT :elfeed:
+** PROGRAMMING :programming:
+*** [[https://this-week-in-rust.org/rss.xml][This Week in Rust]] :rust:
+
+** CYBERSECURITY :cybersecurity:
+*** [[https://feeds.feedburner.com/TheHackersNews][Cybersecurity News Platform]]
+*** [[https://www.wiz.io/feed/rss.xml][Wiz Blog]]
+
+** TECHNOLOGY :technology:
+*** [[https://hackernoon.com/feed][HackerNoon - Read, Write & Learn About Technology]]
+
+** FOSS :foss:
+*** [[https://itsfoss.com/rss/][It's FOSS]]
