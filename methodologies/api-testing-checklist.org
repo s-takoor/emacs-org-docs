@@ -1,0 +1,59 @@
+#+title: API TESTING CHECKLIST
+#+author: s.t
+#+filetags: :api:testing:checklist:
+
+** TL;DR
+This checklist outlines the essential steps for conducting API penetration testing. It follows the OWASP API Top 10 standard but is not limited to it.
+
+** TESTING APPROACH [0/1]
+- [ ] determine the approach
+  + black box: testing without knowing internal workings or code structure, focusing on the input-output behavior of an API
+  + gray box: testing with some knowledge of the underlying implementation and architecture
+  + white box: testing with full access to the source code and design documents, aiming for comprehensive security assessment
+
+** PASSIVE RECONNAISSANCE [0/2]
+- [ ] conduct attack surface discovery: identify all accessible endpoints and their functionality
+- [ ] check for exposed secrets: look for hardcoded credentials, API keys, or other sensitive data in source code, configuration files, or logs
+
+** ACTIVE RECONNSAISSANCE [0/5]
+- [ ] scan for open ports and services: use port scanning tools like ~Nmap~ to find open ports and services
+- [ ] perform web application vulnerability scans: utilise tools like ~OpenVas~ or ~Nessus~ to identify known vulnerabilities in the API and surrounding infrastructure
+- [ ] use the application as intended: test API functionality and interactions with legitimate user input
+- [ ] search for API-related directories: look for common API directories (~/api~, ~/rest~, etc.) or file extensions (~.json~, ~.xml~) to find additional endpoints
+- [ ] discover API endpoints: use tools like ~Burp Suite~ or ~Postman~ to intercept requests and identify new endpoints
+
+** ENDPOINT ANALYSIS [0/3]
+- [ ] find and review API documentation: analyse the available documentation for input validation rules, error messages, and other relevant information
+- [ ] reverse engineering the API: use tools like ~Postman~, ~Swagger UI~, or ~Burp Suite~ to analyse traffic, decode responses, and infer functionality
+- [ ] analyse responses for information disclosures, excessive data exposures, and business logic flaws: look for sensitive data or vulnerabilities within the response structure
+
+** AUTHENTICATION TESTING [0/2]
+- [ ] conduct basic authentication testing: test weak password policies, session management, and token expiration
+- [ ] attack and manipulate API tokens: try to obtain or modify tokens using common attack techniques like replay attacks or brute force attacks
+
+** AUTHORISATION TESTING [0/3]
+- [ ] discover resource identification methods: identify methods used to determine the resources that are accessible by a given role or user
+- [ ] test for BOLA: analyse API business rules and test for potential misconfigurations, such as insufficient access control checks, insecure data flows, and unvalidated inputs
+- [ ] test for BFLA: identify and exploit vulnerabilities where a user has access to a specific function but should not have access to its output or other related functions
+
+** MASS ASSIGNMENT TESTING [0/2]
+- [ ] discover standard parameters used in requests: understand the meaning and expected values of each input parameter, as well as their usage within API endpoints
+- [ ] discover requests that can be used to update object variables: test for mass assignment vulnerabilities by attempting to manipulate object properties using unvalidated user input or injecting unexpected data types
+
+** INJECTION TESTING [0/5]
+- [ ] discover requests that accept user input: find API endpoints that allow user input and prioritise testing based on the potential impact of an injection attack
+- [ ] fuzz for injection points: use fuzzing techniques to identify unexpected behavior or vulnerabilities in API responses, especially at boundaries or edge cases
+- [ ] test for XSS/XAS: identify and exploit cross-site scripting (XSS) or XML external entity (XAS) vulnerabilities using tools like ~Burp Suite~ or ~ZAP~
+- [ ] perform database-specific attacks: attempt SQL injection, NoSQL injection, or other database-specific attacks to gain unauthorised access to data
+- [ ] perform operating system injection: test for OS command injection ot other injection vulnerabilities within API endpoints or surrounding infrastructure
+
+** RATE LIMIT TESTING [0/3]
+- [ ] test for the existence of rate limits: attempt to identify and bypass API rate limits using techniques such as flooding requests, using multiple IPs or user agents, and manipulating cookies or headers
+- [ ] test for methods to avoid rate limits: try to circumvent rate limits by using alternative authentication mechanisms, such as token-based authentication, or exploiting API caching mechanisms
+- [ ] test for methods to bypass rate limits: identify and test techniques to bypass rate limits without being detected, such as request smuggling or time-based attacks
+
+** EVASIVE TECHNIQUES [0/4]
+- [ ] add string terminators to attacks: use character encoding schemes or unicode escapes to circumvent input validation rules
+- [ ] add case switching to attacks: attempt attacks using different casing conventions (uppercase, lowercase, camelCase, snake_case, kebab-case, PascalCase) to bypass filters
+- [ ] encode payloads: use techniques like base64 encoding, hexadecimal encoding, or binary data encoding to hide malicious input from security checks
+- [ ] combine different evasion techniques: use multiple evasion techniques in combination (e.g., string terminations and case switching) to increase the chances of bypassing security measures
